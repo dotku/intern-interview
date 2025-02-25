@@ -164,16 +164,24 @@ function App() {
             <div className="mb-4 md:mb-0">
               <p className="text-sm">© 杰圆科技 2025. 保留所有权利</p>
             </div>
-            <div className="flex space-x-6">
-              <a href="#" className="text-gray-400 hover:text-white">
-                隐私政策
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white">
-                使用条款
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white">
-                联系我们
-              </a>
+            <div className="flex flex-col md:flex-row items-center space-y-3 md:space-y-0 md:space-x-6">
+              <div className="flex space-x-6">
+                <a href="#" className="text-gray-400 hover:text-white">
+                  隐私政策
+                </a>
+                <a href="#" className="text-gray-400 hover:text-white">
+                  使用条款
+                </a>
+                <a href="#" className="text-gray-400 hover:text-white">
+                  联系我们
+                </a>
+              </div>
+              <div className="flex items-center text-gray-400 ml-0 md:ml-4">
+                <span className="mr-2">微信:</span>
+                <span className="font-medium text-gray-200">
+                  wxid_mshnxf7rr89o22
+                </span>
+              </div>
             </div>
           </div>
         </div>
